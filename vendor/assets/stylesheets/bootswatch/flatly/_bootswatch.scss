@@ -253,17 +253,18 @@ div.subnav {
 		color: white;
 	}
 
-	&.btn-large {
-		padding: $paddingLarge;
-	}
+}
 
-	&.btn-small {
-		padding: $paddingSmall;
-	}
+.btn-large {
+	padding: $paddingLarge;
+}
 
-	&.btn-mini {
-		padding: $paddingMini;
-	}
+.btn-small {
+	padding: $paddingSmall;
+}
+
+.btn-mini {
+	padding: $paddingMini;
 }
 
 // TABLES
@@ -379,19 +380,20 @@ legend {
 	h1, h2, h3, h4, h5, h6 {
 		color: $white;
 	}
-
-	&.alert-error {
-		background-color: $red;
-	}
-
-	&.alert-success {
-		background-color: $green;
-	}
-
-	&.alert-info {
-		background-color: $blue;
-	}
 }
+
+.alert-error {
+	background-color: $red;
+}
+
+.alert-success {
+	background-color: $green;
+}
+
+.alert-info {
+	background-color: $blue;
+}
+
 
 .label {
 	padding: 6px 10px;
@@ -441,22 +443,22 @@ legend {
 		background: $textColor;
 		@include box-shadow(none);
 	}
+}
 
-	&.progress-success .bar {
-		background-color: $green;
-	}
+.progress-success .bar {
+	background-color: $green;
+}
 
-	&.progress-warning .bar {
-		background-color: $yellow;
-	}
+.progress-warning .bar {
+	background-color: $yellow;
+}
 
-	&.progress-danger .bar {
-		background-color: $red;
-	}
+.progress-danger .bar {
+	background-color: $red;
+}
 
-	&.progress-info .bar {
-		background-color: $blue;
-	}
+.progress-info .bar {
+	background-color: $blue;
 }
 
 .tooltip {

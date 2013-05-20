@@ -253,15 +253,15 @@ div.subnav {
 		color: white;
 	}
 
-	.btn-large {
+	&.btn-large {
 		padding: $paddingLarge;
 	}
 
-	.btn-small {
+	&.btn-small {
 		padding: $paddingSmall;
 	}
 
-	.btn-mini {
+	&.btn-mini {
 		padding: $paddingMini;
 	}
 }
@@ -380,15 +380,15 @@ legend {
 		color: $white;
 	}
 
-	.alert-error {
+	&.alert-error {
 		background-color: $red;
 	}
 
-	.alert-success {
+	&.alert-success {
 		background-color: $green;
 	}
 
-	.alert-info {
+	&.alert-info {
 		background-color: $blue;
 	}
 }
@@ -442,19 +442,19 @@ legend {
 		@include box-shadow(none);
 	}
 
-	.progress-success .bar {
+	&.progress-success .bar {
 		background-color: $green;
 	}
 
-	.progress-warning .bar {
+	&.progress-warning .bar {
 		background-color: $yellow;
 	}
 
-	.progress-danger .bar {
+	&.progress-danger .bar {
 		background-color: $red;
 	}
 
-	.progress-info .bar {
+	&.progress-info .bar {
 		background-color: $blue;
 	}
 }
